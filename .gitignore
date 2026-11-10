@@ -1,0 +1,17 @@
+node_modules/
+dist/
+cache/
+__pycache__/
+.pytest_cache/
+.vercel
+data/raw/
+*.zip
+# raw benchmark data: downloaded by pipeline/fetch_data.py, never committed (no licence stated)
+_downloads/
+salbp/
+s1993/
+o2013/
+*.IN2
+*.in2
+*.alb
+*.xlsx
