@@ -112,7 +112,7 @@ classic instances (larger, real-product graphs) as an out-of-distribution check.
 | Lognormal sampler | mean and CV within 0.5 % and 2 % on 200,000 draws (unit test) |
 | ML on unseen families vs baselines | MAE 0.19 stations vs 0.72 (mean) and 0.29 (LB2 rule); gap > 0 called correctly 94.5 % vs 62.9 % and 85.5 % |
 
-23 pytest tests: `python -I -m pytest -q tests`.
+29 pytest tests: `python -I -m pytest -q tests`.
 
 ## 6. Results
 

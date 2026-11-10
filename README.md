@@ -44,7 +44,7 @@ KILBRID: 45 tasks, 10 stations, task-time CV 20%
   heuristic       cycle 57 (+1.79% left on the table)
   realistic rate  keeps 84.7% of output, p95 cycle 497 s -> 160 planned vs 135 expected units/day
   fix first       S4 19%, S5 17%, S6 10%  (share of cycles each station sets the pace)
-  robust          KEEP exact plan (variation-aware +0.00% on unseen cycles)
+  robust          KEEP exact plan (variation-aware -0.04% on unseen cycles)
 ```
 
 It reads the benchmark `.IN2` format (task count, one time per task, then `i,j` precedence pairs), so a time-study export maps straight onto it.

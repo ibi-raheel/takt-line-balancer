@@ -433,13 +433,16 @@ export function App({ lines, summary }: { lines: Line[]; summary: Summary }) {
           <div className="foot-tape" aria-hidden="true" />
           <p>
             Data: Scholl (1993) assembly line balancing benchmark, including graphs from Talbot, Patterson &amp; Gehrlein (1986)
-            and Hoffmann (1990, 1992); SALBPGen instances by Otto, Otto &amp; Scholl (2013). Published for research use at
-            assembly-line-balancing.de; no licence text is stated. Task-time variation, the 6-minute takt and 16 h/day are
+            and Hoffmann (1990, 1992); SALBPGen instances by Otto, Otto &amp; Scholl (2013). Published for research use at{' '}
+            <a href="https://assembly-line-balancing.de">assembly-line-balancing.de</a>; no licence text is stated. Task-time variation, the 6-minute takt and 16 h/day are
             labelled assumptions.
           </p>
-          <p>Every number on this page is precomputed by the pipeline in this repository (Python, OR-Tools, scikit-learn) and shipped as static data; nothing is computed live.</p>
+          <p>Every number on this page is precomputed by the pipeline in <a href="https://github.com/ibi-raheel/takt-line-balancer">this repository</a> (Python, OR-Tools, scikit-learn) and shipped as static data; nothing is computed live.</p>
           <p className="foot-more">
             More work at <a href="https://ibiraheel.com">ibiraheel.com</a>
+          </p>
+          <p className="foot-src mono">
+            <a href="https://github.com/ibi-raheel/takt-line-balancer">Source on GitHub</a>
           </p>
         </footer>
       </main>

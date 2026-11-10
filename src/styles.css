@@ -1214,6 +1214,9 @@ input[type='range']::-moz-range-thumb {
 .foot p {
   margin: 0 0 10px;
 }
+.foot-src {
+  font-size: 12px;
+}
 .foot-more {
   margin-top: 22px !important;
   font-size: 18px;
